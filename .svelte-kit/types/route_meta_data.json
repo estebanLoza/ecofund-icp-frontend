@@ -3,6 +3,10 @@
 		"src/routes/+layout.js",
 		"src/routes/+layout.js"
 	],
+	"/carbon": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
 	"/proyecto": [
 		"src/routes/+layout.js"
 	]

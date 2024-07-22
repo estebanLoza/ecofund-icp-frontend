@@ -11,7 +11,7 @@
     "file": "index.js",
     "imports": [
       "_internal.js",
-      "_ssr.js"
+      "_index.js"
     ],
     "isEntry": true,
     "src": "../../node_modules/@sveltejs/kit/src/runtime/server/index.js"
@@ -25,8 +25,27 @@
     "isEntry": true,
     "src": ".svelte-kit/generated/server/internal.js"
   },
+  "TransferPlug.css": {
+    "file": "_app/immutable/assets/TransferPlug.5e19a6f5.css",
+    "src": "TransferPlug.css"
+  },
+  "_Sinba.js": {
+    "assets": [
+      "_app/immutable/assets/Sinba.8f1d3806.jpg"
+    ],
+    "file": "chunks/Sinba.js",
+    "imports": [
+      "_environment.js"
+    ]
+  },
   "_environment.js": {
     "file": "chunks/environment.js"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "imports": [
+      "_ssr.js"
+    ]
   },
   "_internal.js": {
     "file": "chunks/internal.js",
@@ -38,8 +57,64 @@
   "_ssr.js": {
     "file": "chunks/ssr.js"
   },
+  "src/lib/images/ Reciclaje.jpg": {
+    "file": "_app/immutable/assets/ Reciclaje.a25113ce.jpg",
+    "src": "src/lib/images/ Reciclaje.jpg"
+  },
+  "src/lib/images/ColombiaAval.png": {
+    "file": "_app/immutable/assets/ColombiaAval.de22f887.png",
+    "src": "src/lib/images/ColombiaAval.png"
+  },
+  "src/lib/images/Perfil.png": {
+    "file": "_app/immutable/assets/Perfil.b18f0169.png",
+    "src": "src/lib/images/Perfil.png"
+  },
+  "src/lib/images/Sinba.jpg": {
+    "file": "_app/immutable/assets/Sinba.8f1d3806.jpg",
+    "src": "src/lib/images/Sinba.jpg"
+  },
+  "src/lib/images/UbicacionImg.png": {
+    "file": "_app/immutable/assets/UbicacionImg.9951ec29.png",
+    "src": "src/lib/images/UbicacionImg.png"
+  },
+  "src/lib/images/apoyo1.png": {
+    "file": "_app/immutable/assets/apoyo1.3f34dd26.png",
+    "src": "src/lib/images/apoyo1.png"
+  },
+  "src/lib/images/apoyo2.png": {
+    "file": "_app/immutable/assets/apoyo2.4855d6e9.png",
+    "src": "src/lib/images/apoyo2.png"
+  },
+  "src/lib/images/apoyo3.png": {
+    "file": "_app/immutable/assets/apoyo3.2cace931.png",
+    "src": "src/lib/images/apoyo3.png"
+  },
+  "src/lib/images/apoyo4.png": {
+    "file": "_app/immutable/assets/apoyo4.0642c64e.png",
+    "src": "src/lib/images/apoyo4.png"
+  },
+  "src/lib/images/bussines.png": {
+    "file": "_app/immutable/assets/bussines.bce45e0b.png",
+    "src": "src/lib/images/bussines.png"
+  },
+  "src/lib/images/home.png": {
+    "file": "_app/immutable/assets/home.b740b112.png",
+    "src": "src/lib/images/home.png"
+  },
+  "src/lib/images/loan.png": {
+    "file": "_app/immutable/assets/loan.6d6adfcc.png",
+    "src": "src/lib/images/loan.png"
+  },
+  "src/lib/images/money.png": {
+    "file": "_app/immutable/assets/money.d4fb0986.png",
+    "src": "src/lib/images/money.png"
+  },
+  "src/lib/images/project.png": {
+    "file": "_app/immutable/assets/project.49d091d3.png",
+    "src": "src/lib/images/project.png"
+  },
   "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout.d42ee3f5.css",
+    "file": "_app/immutable/assets/_layout.cd015ca7.css",
     "src": "src/routes/+layout.css"
   },
   "src/routes/+layout.js": {
@@ -49,7 +124,8 @@
   },
   "src/routes/+layout.svelte": {
     "css": [
-      "_app/immutable/assets/_layout.d42ee3f5.css"
+      "_app/immutable/assets/_layout.cd015ca7.css",
+      "_app/immutable/assets/TransferPlug.5e19a6f5.css"
     ],
     "file": "entries/pages/_layout.svelte.js",
     "imports": [
@@ -59,32 +135,68 @@
     "src": "src/routes/+layout.svelte"
   },
   "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page.f6a2f505.css",
+    "file": "_app/immutable/assets/_page.59f978db.css",
     "src": "src/routes/+page.css"
   },
   "src/routes/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/home.b740b112.png",
+      "_app/immutable/assets/ColombiaAval.de22f887.png",
+      "_app/immutable/assets/ Reciclaje.a25113ce.jpg",
+      "_app/immutable/assets/project.49d091d3.png",
+      "_app/immutable/assets/loan.6d6adfcc.png",
+      "_app/immutable/assets/money.d4fb0986.png",
+      "_app/immutable/assets/bussines.bce45e0b.png"
+    ],
     "css": [
-      "_app/immutable/assets/_page.f6a2f505.css"
+      "_app/immutable/assets/_page.59f978db.css"
     ],
     "file": "entries/pages/_page.svelte.js",
     "imports": [
       "_ssr.js",
-      "_environment.js"
+      "_Sinba.js"
     ],
     "isEntry": true,
     "src": "src/routes/+page.svelte"
   },
+  "src/routes/carbon/+layout.svelte": {
+    "file": "entries/pages/carbon/_layout.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/carbon/+layout.svelte"
+  },
+  "src/routes/carbon/+page.svelte": {
+    "file": "entries/pages/carbon/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/carbon/+page.svelte"
+  },
   "src/routes/proyecto/+page.css": {
-    "file": "_app/immutable/assets/_page.addea4d9.css",
+    "file": "_app/immutable/assets/_page.55542ee5.css",
     "src": "src/routes/proyecto/+page.css"
   },
   "src/routes/proyecto/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/Perfil.b18f0169.png",
+      "_app/immutable/assets/UbicacionImg.9951ec29.png",
+      "_app/immutable/assets/apoyo1.3f34dd26.png",
+      "_app/immutable/assets/apoyo2.4855d6e9.png",
+      "_app/immutable/assets/apoyo3.2cace931.png",
+      "_app/immutable/assets/apoyo4.0642c64e.png"
+    ],
     "css": [
-      "_app/immutable/assets/_page.addea4d9.css"
+      "_app/immutable/assets/_page.55542ee5.css",
+      "_app/immutable/assets/TransferPlug.5e19a6f5.css"
     ],
     "file": "entries/pages/proyecto/_page.svelte.js",
     "imports": [
-      "_ssr.js"
+      "_ssr.js",
+      "_Sinba.js"
     ],
     "isEntry": true,
     "src": "src/routes/proyecto/+page.svelte"
