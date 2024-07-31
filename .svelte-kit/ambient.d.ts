@@ -38,13 +38,13 @@ declare module '$env/static/private' {
 	export const npm_config_noproxy: string;
 	export const HOME: string;
 	export const CHROME_DESKTOP: string;
+	export const OLDPWD: string;
 	export const TERM_PROGRAM_VERSION: string;
 	export const DESKTOP_SESSION: string;
 	export const NVM_BIN: string;
 	export const npm_package_json: string;
 	export const NVM_INC: string;
 	export const GIO_LAUNCHED_DESKTOP_FILE: string;
-	export const npm_package_engines_node: string;
 	export const GNOME_SHELL_SESSION_MODE: string;
 	export const GTK_MODULES: string;
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
@@ -101,8 +101,8 @@ declare module '$env/static/private' {
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const SHELL: string;
 	export const LC_NAME: string;
-	export const npm_lifecycle_event: string;
 	export const npm_package_version: string;
+	export const npm_lifecycle_event: string;
 	export const QT_ACCESSIBILITY: string;
 	export const GDMSESSION: string;
 	export const LESSCLOSE: string;
@@ -119,7 +119,6 @@ declare module '$env/static/private' {
 	export const NVM_CD_FLAGS: string;
 	export const XDG_DATA_DIRS: string;
 	export const npm_config_global_prefix: string;
-	export const npm_package_engines_npm: string;
 	export const LC_NUMERIC: string;
 	export const npm_command: string;
 	export const LC_PAPER: string;
@@ -175,13 +174,13 @@ declare module '$env/dynamic/private' {
 		npm_config_noproxy: string;
 		HOME: string;
 		CHROME_DESKTOP: string;
+		OLDPWD: string;
 		TERM_PROGRAM_VERSION: string;
 		DESKTOP_SESSION: string;
 		NVM_BIN: string;
 		npm_package_json: string;
 		NVM_INC: string;
 		GIO_LAUNCHED_DESKTOP_FILE: string;
-		npm_package_engines_node: string;
 		GNOME_SHELL_SESSION_MODE: string;
 		GTK_MODULES: string;
 		VSCODE_GIT_ASKPASS_MAIN: string;
@@ -238,8 +237,8 @@ declare module '$env/dynamic/private' {
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		SHELL: string;
 		LC_NAME: string;
-		npm_lifecycle_event: string;
 		npm_package_version: string;
+		npm_lifecycle_event: string;
 		QT_ACCESSIBILITY: string;
 		GDMSESSION: string;
 		LESSCLOSE: string;
@@ -256,7 +255,6 @@ declare module '$env/dynamic/private' {
 		NVM_CD_FLAGS: string;
 		XDG_DATA_DIRS: string;
 		npm_config_global_prefix: string;
-		npm_package_engines_npm: string;
 		LC_NUMERIC: string;
 		npm_command: string;
 		LC_PAPER: string;
